@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/5a12c9e17d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Billabong&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+     
+    <title>bootstrap instagram</title>
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="d-flex align-items-center mx-3">
+        <i class="display-6 fa-brands fa-instagram"></i>
+        <a class="navbar-brand mx-1" style="font-family: pacifico" href="#"
+          ><h2 class="mx-2 mb-0">Instagram</h2></a
+        >
+      </div>
+      <div class="ms-auto"></div>
+      <button
+        type="button"
+        class="btn mx-1 btn-success"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Create a new post
+      </button>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">
+                Create a new post
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <h6 class="mx-1">Caption:</h6>
+              <textarea
+    class="form-control mb-1 w-100 h-50"
+    placeholder="Add the caption of your post here..."
+  ></textarea>
+              <div class="d-inline mx-2">
+                <i class="fa-solid fa-camera mx-1"></i>
+                <i class="fa-solid fa-location-dot mx-2"></i>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-success">Publish</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn btn-secondary dropdown-toggle"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-gear"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><a class="dropdown-item" href="#">Accessibility</a></li>
+          <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+          <div class="dropdown-divider"></div>
+          <li>
+            <a class="dropdown-item text-danger" href="#">Log out</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav>
+        <div class="nav nav-tabs border border-0 my-4 d-flex align-items-center justify-content-center" id="nav-tab" role="tablist">
+          <i
+            class="nav-link border border-0 active fa-solid fa-table-cells"
+            id="nav-home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-home"
+            type="button"
+            role="tab"
+            aria-controls="nav-home"
+            aria-selected="true"
+          >
+        
+        </i>
+          <i
+            class="nav-link border border-0 fa-solid fa-square"
+            id="nav-profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-profile"
+            type="button"
+            role="tab"
+            aria-controls="nav-profile"
+            aria-selected="false"
+          >
+            
+    </i>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="nav-home"
+          role="tabpanel"
+          aria-labelledby="nav-home-tab"
+          tabindex="0"
+        >
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 px-1 py-1">
+              <img
+                width="100%"
+                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ0ZRQnXF27QDu_XqSuE-DthWQ_5qr9PwTBx7B2QxgYVcrB1un8jreuAhpu54uL"
+                alt="random image"
+              />
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 px-1 py-1">
+              <img
+                width="100%"
+                src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTl0Gtbi2j3ijksGah9Kfu-P_TeVDfSJZrwA0Jo-YCMFbWW4RmSqQT5wjjiwGiM"
+                alt="random image"
+              />
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 px-1 py-1">
+              <img
+                width="100%"
+                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRTiR6qF_Wx4ITNL30xi19pMm0Zi6k7VQ_ieKxr3yLwLHYJ3EZGc_qb1PeIm-95"
+                alt="random image"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 px-1 py-1">
+              <img
+                width="100%"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStl_YIE36wgxBNsz-VT1mm1ncdjksRkrmpF9Zr-RHFKWPoSuX0N7vG5s6Z8gg3"
+                alt="random image"
+              />
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 px-1 py-1">
+              <img
+                width="100%"
+                src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRcGGmk5zgOdYOfzgwYNLZE2sMb5nKHZCqa6q9r3IOpZ7LldnfgJMv9idlrIf45"
+                alt="random image"
+              />
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 px-1 py-1">
+              <img
+                width="100%"
+                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRzliaCsJnw632QXNWyNd2RvZAIiQCVN91PrFq9AQEN6_ywohOnVeM4P3Z1yldQ"
+                alt="random image"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 px-1 py-1">
+              <img
+                width="100%"
+                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTexsWLZZc6tpLESUvK1hn8XNyGFjXnydVVNvoVM8Ih-pmeDJUxOk6Ye3Pv5btB"
+                alt="random image"
+              />
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 px-1 py-1">
+              <img
+                width="100%"
+                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT4xr3mYFxGD8DsJi7TD0ot8WLpaUzWZth1rfA97p-ujjoZcK51nWrMp4KcMvO2"
+                alt="random image"
+              />
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 px-1 py-1">
+              <img
+                width="100%"
+                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR2I34gYxs5G0OE1uXQDKZgzCGFMMZKGDJ-5fT27v8sq0ofWczzOXeS1AxvARog"
+                alt="random image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        </div>
+        <div
+          class="tab-pane fade"
+          id="nav-profile"
+          role="tabpanel"
+          aria-labelledby="nav-profile-tab"
+          tabindex="0"
+        >
+        <div class="container-fluid mb-4">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3"></div>
+            <div class="col-sm-12 col-md-9 col-lg-6 px-0 border border-3 border-light">
+              <div
+                class="row mt-2 d-flex align-items-center justify-content-between"
+              >
+                <h4 class="mx-2 col-sm-12 col-md-10 col-lg-8">Viva la siesta!</h4>
+                <p class="mx-2 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-end">08/23</p>
+              </div>
+              <img
+                class="border-top border-bottom border-3 border-light"
+                width="100%"
+                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSPGQwd7Wd3trZl1azN0DA1Ox6D5o0Nu5DsYR_pHxJQDBWaBvVptPtiav_YVfAm"
+                alt=""
+              />
+              <div class="row d-flex justify-content-between mt-2 mx-1">
+                <h5 class="fw-bold">34.5k likes</h5>
+                  <h6>Shhhhhhhh.....I'm sleeping...</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3"></div>
+        </div>
+        <div class="container-fluid mb-4">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3"></div>
+            <div class="col-sm-12 col-md-9 col-lg-6 px-0 border border-3 border-light">
+              <div
+                class="row mt-2 d-flex align-items-center justify-content-between"
+              >
+                <h4 class="mx-2 col-sm-12 col-md-10 col-lg-8">Viva la noche!</h4>
+                <p class="mx-2 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-end">08/20</p>
+              </div>
+              <img
+                class="border-top border-bottom border-3 border-light"
+                width="100%"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE_WB65sfZCJGi6nzcuOq4GGGVrJ7P2PcHMfvrJsM8axJWv83K3-Ppvip5q0zk"
+                alt=""
+              />
+              <div class="row d-flex justify-content-between mt-2 mx-1">
+                <h5 class="fw-bold">20.5k likes</h5>
+                  <h6>Find the light into the dark...</h6>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3"></div>
+        </div>
+        <div class="container-fluid mb-4">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3"></div>
+            <div class="col-sm-12 col-md-9 col-lg-6 px-0 border border-3 border-light">
+              <div
+                class="row mt-2 d-flex align-items-center justify-content-between"
+              >
+                <h4 class="mx-2 col-sm-12 col-md-10 col-lg-8">Viva la fiesta!</h4>
+                <p class="mx-2 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-end">08/10</p>
+              </div>
+              <img
+                class="border-top border-bottom border-3 border-light"
+                width="100%"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO1Fs_6gVSvTrux5-rKViWMuZMSU_A2AOIdSrubnSlG2cqXJnuIB9XWo8c1s1n"
+                alt=""
+              />
+              <div class="row d-flex justify-content-between mt-2 mx-1">
+                <h5 class="fw-bold">200k likes</h5>
+                  <h6>We will always be friends...</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3"></div>
+        </div>
+      </div>
+      </div>
+        </div>
+      </div>
+    
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
